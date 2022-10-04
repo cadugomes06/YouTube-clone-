@@ -15,23 +15,23 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
+  { name: 'Novo', icon: <HomeIcon />, },
+  { name: 'Javascript', icon: <CodeIcon />, },
+  { name: 'Codigo', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon />, },
+  { name: 'Css', icon: <CodeIcon />, },
+  { name: 'Musica', icon: <MusicNoteIcon /> },
+  { name: 'Educação', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Gaming', icon: <SportsEsportsIcon />, },
+  { name: 'Filmes', icon: <OndemandVideoIcon />, },
+  { name: 'Jogos', icon: <SportsEsportsIcon />, },
   { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Esportes', icon: <FitnessCenterIcon />, },
+  { name: 'Moda', icon: <CheckroomIcon />, },
+  { name: 'Beleza', icon: <FaceRetouchingNaturalIcon />, },
+  { name: 'Comedia', icon: <TheaterComedyIcon />, },
+  { name: 'Fitness', icon: <FitnessCenterIcon />, },
+  { name: 'Cripto', icon: <DeveloperModeIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';

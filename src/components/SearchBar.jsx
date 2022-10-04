@@ -1,9 +1,10 @@
 import {React, useState } from 'react'
 import { useNavigate } from "react-router-dom"
 import { Paper, IconButton } from "@mui/material"
-import { SearchIcon } from "@mui/icons-material"
+import { Search } from "@mui/icons-material"
 
 const SearchBar = () => {
+
   return (
     <Paper 
       component="form"
@@ -11,22 +12,24 @@ const SearchBar = () => {
       sx={{ 
         borderRadius: 20, 
         border: "1px solid #e3e3e3", 
-        pl: 8, 
+        pl: 4, 
         boxShadow: "none", 
-        mr: { sm: 5 }}}
+        mr: { sm: 5 }
+      }}
      >
-        <input 
-          className='search-bar'
+        <input        
+          style={{ border: 'none', outline: "none"}}
+          placeholder="Quero assistir..."
           type="text"
-          placeholder="Quero assistir..." 
-          value=""
+          className='search-bar'
           onChange={() => {}}
           />  
           <IconButton>
-            <SearchIcon />
+            <Search />
           </IconButton>
     </Paper>
   )
 }
 
 export default SearchBar
+// 35 MINUTOS PAUSADO
