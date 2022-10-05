@@ -15,12 +15,12 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-  { name: 'Novo', icon: <HomeIcon />, },
+  { name: 'Novos', icon: <HomeIcon />, },
   { name: 'Javascript', icon: <CodeIcon />, },
-  { name: 'Codigo', icon: <CodeIcon />, },
+  { name: 'Código', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
   { name: 'Css', icon: <CodeIcon />, },
-  { name: 'Musica', icon: <MusicNoteIcon /> },
+  { name: 'Música', icon: <MusicNoteIcon /> },
   { name: 'Educação', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'Filmes', icon: <OndemandVideoIcon />, },
@@ -29,7 +29,7 @@ export const categories = [
   { name: 'Esportes', icon: <FitnessCenterIcon />, },
   { name: 'Moda', icon: <CheckroomIcon />, },
   { name: 'Beleza', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedia', icon: <TheaterComedyIcon />, },
+  { name: 'Comédia', icon: <TheaterComedyIcon />, },
   { name: 'Fitness', icon: <FitnessCenterIcon />, },
   { name: 'Cripto', icon: <DeveloperModeIcon />, },
 ];
