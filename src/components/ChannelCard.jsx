@@ -5,12 +5,18 @@ import { Link } from 'react-router-dom';
 
 import { demoProfilePicture } from '../utils/constants';
 
-const ChannelCard = ({ channelDetail }) => {
+const ChannelCard = ({ channelDetail, marginTop }) => {
   return (
     <Box 
        sx={{
         boxShadow: 'none',
-        borderRadius: '20px'
+        borderRadius: '20px',
+        display: 'flex',
+        alignItemns: 'center',
+        width: {xs: '356px', md: '320px'},
+        height: '326px',
+        margin: 'auto',
+        marginTop: marginTop,
        }}>
          <Link to={`/channel/${channelDetail?.id?.channelId}`}>
             <CardContent sx={{ display: 'flex', flexDirection: 'column',
@@ -25,6 +31,12 @@ const ChannelCard = ({ channelDetail }) => {
                         {channelDetail?.snnipet?.title}
                         <CheckCircle sx={{ fontSize: 14, color: 'gray', ml: '5px'}} />
                     </Typography>
+                    {channelDetail?.statistics?.subscriberCount && (
+                      <Typography>
+                        {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()}
+                        Inscritos
+                      </Typography>
+                    )}
 
             </CardContent>
          </Link> 
