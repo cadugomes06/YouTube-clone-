@@ -8,11 +8,11 @@ import Videos from "./Videos"
 
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Novo")
+  const [selectedCategory, setSelectedCategory] = useState("Programação")
   const [ videos, setVideos ] = useState([])
 
   useEffect(() => {
-    const data = fetchFromAPI(`search?part=snippet&q=${selectedCategory}`)
+   fetchFromAPI(`search?part=snippet&q=${selectedCategory}`)
     .then((data) => setVideos(data.items))
   }, [selectedCategory])
 
@@ -27,7 +27,7 @@ const Feed = () => {
 
         <Typography className="copyright"
          variant="body2" sx={{ mt: 1.5, color: "#fff"}}>
-          Copyright 2022 - Carlos Eduardo
+          Copyright 2022 - Dev Carlos Eduardo
         </Typography>
       </Box>
 
